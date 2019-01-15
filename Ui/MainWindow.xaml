@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ui"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1026.96" Width="1261.285" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="MainWindow" Height="1026.96" Width="1261.285" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None" Background="#FFB82525">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
