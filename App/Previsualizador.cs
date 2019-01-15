@@ -24,7 +24,8 @@ namespace App
         public Previsualizador setVideo(Video v)
         {
             this.current = v;
-            this.onVideoChanged(this, this.current);
+            if(this.onVideoChanged!=null)
+                this.onVideoChanged(this, this.current);
             return this;
         }
 

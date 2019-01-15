@@ -63,6 +63,9 @@ namespace App
             {
                 Button button = new Button();
                 button.Text = video.Name;
+                button.Image = Image.FromFile(video.Picture);
+                button.ImageAlign = ContentAlignment.TopCenter;
+                button.TextImageRelation = TextImageRelation.ImageAboveText;
                 button.Click += (s,e) =>
                 {
                     Console.WriteLine($"Click on {video.Number}");
